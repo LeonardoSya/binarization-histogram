@@ -1,0 +1,22 @@
+# 编译生成的文件
+/target/
+
+# 编译器生成的中间文件
+**/*.rs.bk
+
+# Cargo.lock (对于库项目)
+/Cargo.lock
+
+# 编辑器或IDE配置
+/.vscode/
+/.idea/
+/*.swp
+*.log
+*.tmp
+*.bak
+
+# macOS系统文件
+.DS_Store
+
+# Windows系统文件
+Thumbs.db
